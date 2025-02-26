@@ -1,15 +1,17 @@
-# second_practice
+# Date and Time Picker Dialog
 
 A new Flutter project.
 
 ## Getting Started
+This dialog allows the user to select a date or a range of dates. Activate by calling the showDatePicker function, which returns a Future<DateTime>
 
-This project is a starting point for a Flutter application.
+TimePickerDialog is a dialog that presents a time picker. It can be activated by calling the showTimePicker() function. Instead of returning a Future<DateTime>, showTimePicker instead returns a Future<TimeOfDay
+
+This project is a Flutter learning application.
 
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
